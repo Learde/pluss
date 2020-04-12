@@ -39,7 +39,7 @@
     <img class="social__image social__image--vk" src="img/vk.png" alt="">
   </a>
 </div>
-      <div class="navigation @@class">
+      <div class="navigation ">
   <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
   <label for="navi-toggle" class="navigation__button">
@@ -48,19 +48,12 @@
   </label>
 
   <nav class="navigation__nav">
-    <div class="navigation__content navigation--active-@@active">
-      <a class="navigation__link navigation__link--main navigation__link" href="./">Главная</a>
-      <input type="checkbox" name="check-list" id="check-list" class="navigation__check-list">
-      <label for="check-list" class="navigation__block-header">Ссылки<span class="navigation__arrow-left">&#9668;</span><span class="navigation__arrow-down">&#9660;</span></label>
-      <ul class="navigation__links-list">
-        <li class="navigation__list-elem"><a href="#" class="navigation__link">1</a></li>
-        <li class="navigation__list-elem"><a href="#" class="navigation__link">2</a></li>
-        <li class="navigation__list-elem"><a href="#" class="navigation__link">3</a></li>
-        <li class="navigation__list-elem"><a href="#" class="navigation__link">4</a></li>
-        <li class="navigation__list-elem"><a href="#" class="navigation__link">5</a></li>
-        <li class="navigation__list-elem"><a href="#" class="navigation__link">6</a></li>
-        <li class="navigation__list-elem"><a href="#" class="navigation__link">7</a></li>
-      </ul>
+    <div class="navigation__content navigation--active-index">
+      <a class="navigation__link" href="./">Главная</a>
+      <a class="navigation__link" href="./pages/portfolio.html">Портфолио</a>
+      <a class="navigation__link" href="./">Прайс / Услуги</a>
+      <a class="navigation__link" href="./">Блог</a>
+      <a class="navigation__link" href="./">Контакты</a>
     </div>
   </nav>
 </div>
@@ -312,6 +305,62 @@
       <div class="slide-contacts__btn"><p class="slide-contacts__btn-text">Начать чат в WatsApp</p></div>
     </div>
   </div>
+</section>
+  <section class="footer__section">
+  <footer class="footer">
+    <div class="footer__info">
+      <div class="footer__logo">
+        <img src="img/logo.png" alt="Pluss" class="footer__logo-img">
+        <p class="footer__logo-text">Pluss.studio - разработка и<br> продвижение сайтов.</p>
+      </div>
+      <div class="footer__docs">
+        <p class="footer__doc">ОГРН: 1234567890</p>
+        <p class="footer__doc">ИНН: 1234567890</p>
+      </div>
+      <a href="#" class="footer__politics">Политика конфиденциальности</a>
+      <a href="#" class="footer__politics">Отказ от ответственности</a>
+    </div>
+    <article class="footer__contacts">
+      <h3 class="footer__heading">Связь.</h3>
+      <p class="footer__phone">+7 (999) 655-00-90</p>
+      <p class="footer__email">pluss.studio@mail.ru</p>
+    </article>
+    <article class="footer__contacts">
+      <h3 class="footer__heading">Соц. сети.</h3>
+      <a href="#" class="footer__social footer__social--first">
+        <img src="img/instagram.png" alt="instagram" class="footer__social-img">
+        <p class="footer__social-text">Крутой инстаграм</p>
+      </a>
+      <a href="#" class="footer__social">
+        <img src="img/vk.png" alt="vk" class="footer__social-img footer__social-img--vk">
+        <p class="footer__social-text">Родной вк</p>
+      </a>
+    </article>
+    <article class="footer__feedback">
+      <h3 class="footer__heading">Быстрая обработка.</h3>
+      <p class="footer__text">Оставьте свой телефон, а мы с вами свяжемся удобным способом.</p>
+      <form action="#" class="footer__form">
+        <div class="footer__options">
+          <div class="footer__option">
+            <input type="radio" name="way" id="phone">
+            <label class="footer__label" for="phone"><span class="footer__icon"></span>Позвоните</label>
+          </div>
+          <div class="footer__option">
+            <input type="radio" name="way" id="telegram">
+            <label class="footer__label" for="telegram"><span class="footer__icon"></span>Напишите в Telegram</label>
+          </div>
+          <div class="footer__option">
+            <input type="radio" name="way" id="whatsapp">
+            <label class="footer__label" for="whatsapp"><span class="footer__icon"></span>Напишите в WhatsApp</label>
+          </div>
+        </div>
+        <div class="footer__form-send">
+          <input type="text" class="footer__input-phone" placeholder="+7">
+          <div class="footer__btn"><p class="footer__btn-text">Свяжитесь со мной!</p></div>
+        </div>
+      </form>
+    </article>
+  </footer>
 </section>
 </main>
       <script src="js/pageIndex.min.js"></script>
